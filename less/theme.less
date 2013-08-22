@@ -1,0 +1,183 @@
+/* THEME VARIABLES ////////////////////////////////////////////// */
+
+@secondary-color: #27b306;
+@black: #000;
+@white: #FFF;
+
+/* END THEME VARIABLES ////////////////////////////////////////// */
+
+/* HEADER /////////////////////////////////////////////////////// */
+
+header {
+	position: relative;
+	height: 51px;
+	padding-top: 24px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+a.logo {
+	margin: 0;
+	display: inline-block;
+	width: 300px;
+	height: 27px;
+	background: url(images/assets.png) no-repeat;
+}
+/* END HEADER /////////////////////////////////////////////////// */
+
+/* POST ///////////////////////////////////////////////////////// */
+
+article.post {
+	margin-bottom: 40px;
+}
+article.post hgroup {
+	margin: 0 0 10px;
+	font-family: @font-family-sans-serif;
+}
+article.post hgroup h1 {
+	font-weight: 100;
+	margin: 0 0 30px;
+}
+article.post hgroup h1 a {
+	color: @black;
+}
+article.post hgroup h1 a:hover {
+	text-decoration: none;
+}
+article.post hgroup h5 {
+	color: @secondary-color;
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+}
+div.image {
+	background-color: @black;
+	margin: 0 0 20px;
+}
+/* END POST ///////////////////////////////////////////////////// */
+
+/* FOOTER /////////////////////////////////////////////////////// */
+
+footer {
+	padding: 40px 0 10px;
+	color: @gray-light;
+	font-size: @font-size-small;
+	text-align: center;
+}
+/* END FOOTER /////////////////////////////////////////////////// */
+
+/* PAGENATION /////////////////////////////////////////////////// */
+
+#page-nav {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	padding:0;
+	z-index: 10000;
+	width: 80px;
+	height: 35px;
+}
+#page-nav a {
+	color: @white;
+	padding: 0;
+	text-align: center;
+	width: 40px;
+	height: 30px;
+	line-height: 28px;
+	display: block;
+}
+#page-nav div {
+	background-color: @black;
+	background-color: rgba(0,0,0,0.8);
+	padding: 0px;
+	text-align: center;
+	width: 40px;
+	height: 30px;
+	display: block;
+	line-height: 15px;
+}
+#page-nav a:hover {
+	text-decoration: none;
+	color: @link-color;
+}
+.nav-previous {
+	position: absolute;
+	left: 0;
+	border-radius: 10px 0 0 10px;
+	.box-shadow(0 0 10px @gray-light);
+}
+.nav-next {
+	position: absolute;
+	right: 0;
+	border-radius: 0 10px 10px 0;
+	.box-shadow(0 0 10px @gray-light);
+}
+/* END PAGENATION /////////////////////////////////////////////// */
+
+/* INFINITE SCROLL ////////////////////////////////////////////// */
+
+#infscr-loading {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	margin: 0;
+	background-color: @black;
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	color: @white;
+	border-radius: 15px;
+	.box-shadow(0 0 10px @gray-light);
+	text-align: center;
+	font-size: 12px;
+	z-index: 99999;
+}
+#infscr-loading img {
+	display: none;
+}
+/* END INFINITE SCROLL ////////////////////////////////////////// */
+
+/* CAROUSEL ///////////////////////////////////////////////////// */
+
+div.carousel {
+	background-color: @black;
+	margin: 0 0 20px;
+}
+.carousel-control {
+	border-radius: 0;
+	border: none;
+	top: 50%;
+	margin-top: -30px;
+	background: none;
+	background-color: @white;
+	color: @black;
+	text-shadow: none;
+	opacity: 1;
+	width: 20px;
+	height: 60px;
+	line-height: 55px;
+}
+.carousel-control:hover {
+	opacity: 1;
+	background-color: @black;
+	background-color: rgba(0,0,0,0.5);
+}
+.carousel-control.right {
+	right: 0;
+	background-image: none;
+}
+.carousel-control.left {
+	left: 0;
+	background-image: none;
+}
+.carousel-caption {
+	background-color: @black;
+	background-color: rgba(0,0,0,0.5);
+	color: @white;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px 10px;
+	font-size: @font-size-small;
+}
+/* END CAROUSEL ///////////////////////////////////////////////// */
