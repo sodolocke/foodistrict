@@ -1,9 +1,3 @@
-//@codekit-prepend "jquery.js";
-//@codekit-prepend "jquery-ui-1.8.23.custom.min.js";
-//@codekit-prepend "jquery.mobile.custom.min.js";
-//@codekit-prepend "bootstrap.min.js";
-//@codekit-prepend "jquery.infinitescroll.min.js";
-
 /* Author: no4design.com */
 $(function() {	
   	var $container = $('#posts');

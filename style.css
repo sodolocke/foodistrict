@@ -5922,7 +5922,7 @@ header {
   position: relative;
   height: 51px;
   padding-top: 24px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -5938,10 +5938,12 @@ a.logo {
 /* POST ///////////////////////////////////////////////////////// */
 article.post {
   margin-bottom: 40px;
+  text-align: justify;
 }
 article.post hgroup {
   margin: 0 0 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
 }
 article.post hgroup h1 {
   font-weight: 100;
@@ -5960,7 +5962,7 @@ article.post hgroup h5 {
   font-size: 12px;
 }
 div.image {
-  background-color: #000000;
+  background-color: #eeeeee;
   margin: 0 0 20px;
 }
 /* END POST ///////////////////////////////////////////////////// */
@@ -6023,14 +6025,13 @@ footer {
 /* INFINITE SCROLL ////////////////////////////////////////////// */
 #infscr-loading {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 0;
+  left: 0;
   margin: 0;
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px 20px;
   color: #ffffff;
-  border-radius: 15px;
   -webkit-box-shadow: 0 0 10px #999999;
   box-shadow: 0 0 10px #999999;
   text-align: center;
@@ -6042,8 +6043,8 @@ footer {
 }
 /* END INFINITE SCROLL ////////////////////////////////////////// */
 /* CAROUSEL ///////////////////////////////////////////////////// */
-div.carousel {
-  background-color: #000000;
+.carousel {
+  background-color: #eeeeee;
   margin: 0 0 20px;
 }
 .carousel-control {
