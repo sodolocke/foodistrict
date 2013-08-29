@@ -55,3 +55,4 @@
 	<header class="row">
 		<a href="<?php bloginfo("url"); ?>" class="logo"></a>
 	</header>	
+	<div class="fb-follow" data-href="https://www.facebook.com/foodistrict" data-width="450" data-show-faces="true"></div>
